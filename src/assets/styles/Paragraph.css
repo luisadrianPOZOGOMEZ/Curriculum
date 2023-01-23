@@ -1,4 +1,6 @@
-.paragraph {
+.Paragraph {
+    margin-left: 50px;
     font-size: 22px;
     color: #525252;
+    font-family: 'Montserrat';
 }

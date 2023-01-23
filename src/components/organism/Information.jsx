@@ -1,6 +1,7 @@
 import Caption from "../atoms/Caption";
 import SubTittle from "../atoms/SubTittle";
 import Paragraph from "../atoms/Paragraph"; 
+import LineBreak from "../atoms/LineBreak";
 import '../../assets/styles/Container-Info.css'
 import '../../assets/styles/InfoPersonal.css'
 import '../../assets/styles/FirstImagen.css'
@@ -61,6 +62,21 @@ function Information() {
                     <Paragraph pg="Proyecto dedicado a seguimiento de pacientes en una clinica. En este Proyecto se utilizaron:"/>
                     <Paragraph pg="Herramientas CASE."/>
                     <Paragraph pg="Programacion Orientada a Objetos"/>
+                    <SubTittle sub="MY MOOD"/>
+                    <Paragraph pg="Proyecto para ayudar a las personas con sus emociones. En este proyecto se utilizaron:"/>
+                    <Paragraph pg="Herramientas CASE."/>
+                    <Paragraph pg="Programación WEB."/>
+                    <Paragraph pg="Base de Datos."/>
+                    <Paragraph pg="Despliegue en un Host"/>
+                    <SubTittle sub="THE EASY FINANCY"/>
+                    <Paragraph pg="Proyecto que ayuda a empresas a organizar mejor sus finanzas. En este proyecto se utilizaron:"/>
+                    <Paragraph pg="VITE + REACT."/>
+                    <Paragraph pg="Programación WEB."/>
+                    <Paragraph pg="DISEÑO UX/UI."/>
+                </div>
+                <LineBreak/>
+                <div className="end--of--sheet">
+                    
                 </div>
             </div>
         </div>

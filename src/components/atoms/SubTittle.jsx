@@ -2,7 +2,7 @@ import '../../assets/styles/Sub.css'
 
 function SubTittle({sub}) {
     return ( 
-        <h4 className="subtittle">{sub}</h4>
+        <h4 className="SubTittle">{sub}</h4>
      );
 }
 
