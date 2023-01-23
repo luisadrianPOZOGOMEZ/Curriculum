@@ -2,6 +2,7 @@ import Caption from "../atoms/Caption";
 import SubTittle from "../atoms/SubTittle";
 import Paragraph from "../atoms/Paragraph"; 
 import LineBreak from "../atoms/LineBreak";
+import Contact from "../atoms/Contact";
 import '../../assets/styles/Container-Info.css'
 import '../../assets/styles/InfoPersonal.css'
 import '../../assets/styles/FirstImagen.css'
@@ -10,6 +11,7 @@ import '../../assets/styles/AboutMe.css'
 import '../../assets/styles/Skills.css'
 import '../../assets/styles/ListSkill.css'
 import '../../assets/styles/SubTittle.css'
+import '../../assets/styles/EndSheet.css'
 import Imagen1 from '../../assets/imgs/imagen-1.png'
 import Imagen2 from '../../assets/imgs/imagen-2.png'
 
@@ -76,7 +78,10 @@ function Information() {
                 </div>
                 <LineBreak/>
                 <div className="end--of--sheet">
-                    
+                    <Contact cont="Universidad Politecnica de Chiapas"/>
+                    <Contact cont="luispozoengineer@gmail.com"/>
+                    <Contact cont="29160, Chiapa de Corzo Chiapas."/>
+                    <Contact cont="961 693 7892"/>
                 </div>
             </div>
         </div>
